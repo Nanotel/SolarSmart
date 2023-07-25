@@ -8,7 +8,8 @@ Proiectul are mai multe module la care se conecteaza, pe viitor vor fi sparte in
 ATENITE: Scriputl ruleaza cu python2, poate fi trecut la python3 daca se renunta sau se modifica modulul care citeste si comanda prizele TP LINK HS110
 
 Foldere:
-	/pyhon - scriptul care citeste datele si se conecteaza la invertor, baterii, senzori, prize
-	/monitorizare - interfata veche care afisa informatia in mod text
-	/monitorizare2 - interfata noua facuta dupa o intrerfata metro my light
- 	/db - baza de date si un sql pentru a introduce valorile lunare daca le aveti salvate in alta parte
+
+/pyhon - scriptul care citeste datele si se conecteaza la invertor, baterii, senzori, prize
+/monitorizare - interfata veche care afisa informatia in mod text
+/monitorizare2 - interfata noua facuta dupa o intrerfata metro my light
+/db - baza de date si un sql pentru a introduce valorile lunare daca le aveti salvate in alta parte
