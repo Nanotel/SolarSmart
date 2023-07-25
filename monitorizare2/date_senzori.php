@@ -1,0 +1,295 @@
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Senzori temperatura si umiditate</h1>
+        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+class="fas fa-download fa-sm text-white-50"></i> Buton test</a>
+    </div>
+
+    <!-- Content Row -->
+    <div class="row">
+
+
+        <!-- Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Parter casa</div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800"><?= $temperatura_parter ?> °C </div>
+						</div>
+						<div class="col-auto">
+							<i class="fas fa-home fa-2x text-gray-400"></i>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+
+        <!-- PRODUCTIE Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-success text-uppercase mb-1">Atelier</div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800"><?= $temperatura_atelier  ?> °C</div>
+						</div>
+						<div class="col-auto">
+							<i class="fas fa-sun fa-2x text-gray-400"></i>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+
+
+
+        <!-- Pending Requests Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-warning shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Exterior</div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800"><?= $temperatura_exterior ?> °C</div>
+						</div>
+						<div class="col-auto">
+							<i class="fas fa-cloud-sun fa-2x text-gray-400"></i>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+        
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-info text-uppercase mb-1">Umiditate Parter
+							</div>
+							<div class="row no-gutters align-items-center">
+							<div class="col-auto">
+								<div class="h5 mb-0 mr-3 font-weight-bold text-gray-800"><?= $umiditate_parter ?>%</div>
+							</div>
+					<div class="col">
+						<div class="progress progress-sm mr-2">
+							<div class="progress-bar bg-info" role="progressbar"
+							style="width: <?= $umiditate_parter ?>%" aria-valuenow="<?= $umiditate_parter ?>" aria-valuemin="0"
+							aria-valuemax="100"></div>
+						</div>
+					</div>
+            	</div>
+        	</div>
+		    <div class="col-auto">
+		        <i class="fas fa-tint fa-2x text-gray-400"></i>
+		    </div>
+    	</div>
+		</div>
+        </div>
+        </div>        
+        
+        
+        
+    </div>
+
+    <!-- Content Row -->
+
+    <!-- Content Row -->
+    <div class="row">
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Etaj casa</div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800"><?= $temperatura_etaj ?> °C</div>
+						</div>
+						<div class="col-auto">
+							<i class="fas fa-home fa-2x text-gray-400"></i>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-success text-uppercase mb-1">Foisor</div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800"><?= $temperatura_foisor ?> °C</div>
+						</div>
+						<div class="col-auto">
+							<i class="fas fa-temperature-low fa-2x text-gray-400"></i>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-success text-uppercase mb-1">Meteo</div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800"><?= $temperatura_meteo ?> °C</div>
+						</div>
+						<div class="col-auto">
+							<i class="fas fa-temperature-low fa-2x text-gray-400"></i>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-info text-uppercase mb-1">Umididate etaj
+							</div>
+							<div class="row no-gutters align-items-center">
+							<div class="col-auto">
+								<div class="h5 mb-0 mr-3 font-weight-bold text-gray-800"><?= $umiditate_etaj ?>%</div>
+							</div>
+					<div class="col">
+						<div class="progress progress-sm mr-2">
+							<div class="progress-bar bg-info" role="progressbar"
+							style="width: <?= $umiditate_etaj ?>%" aria-valuenow="<?= $umiditate_etaj ?>" aria-valuemin="0"
+							aria-valuemax="100"></div>
+						</div>
+					</div>
+            	</div>
+        	</div>
+		    <div class="col-auto">
+		        <i class="fas fa-tint fa-2x text-gray-400"></i>
+		    </div>
+    	</div>
+		</div>
+        </div>
+        </div>
+        
+        
+        
+        
+        
+        
+    </div>
+
+       <!-- Content Row -->
+    <div class="row">
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Dormitor mic</div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800"><?= $temperatura_dormitor_mic ?> °C</div>
+						</div>
+						<div class="col-auto">
+							<i class="fas fa-home fa-2x text-gray-400"></i>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+<div class="card-body">
+    <div class="row no-gutters align-items-center">
+        <div class="col mr-2">
+            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Dormitor MARE</div>
+            <div class="h5 mb-0 font-weight-bold text-gray-800"> N/A  °C</div>
+        </div>
+        <div class="col-auto">
+            <i class="fas fa-temperature-low fa-2x text-gray-400"></i>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+<div class="card-body">
+    <div class="row no-gutters align-items-center">
+        <div class="col mr-2">
+            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Living</div>
+            <div class="h5 mb-0 font-weight-bold text-gray-800"> N/A  °C</div>
+        </div>
+        <div class="col-auto">
+            <i class="fas fa-temperature-low fa-2x text-gray-400"></i>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-info text-uppercase mb-1">Umididate exterioara
+							</div>
+							<div class="row no-gutters align-items-center">
+							<div class="col-auto">
+								<div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">N/A %</div>
+							</div>
+					<div class="col">
+						<div class="progress progress-sm mr-2">
+							<div class="progress-bar bg-info" role="progressbar"
+							style="width: <?= $umiditate_etaj ?>%" aria-valuenow="<?= $umiditate_etaj ?>" aria-valuemin="0"
+							aria-valuemax="100"></div>
+						</div>
+					</div>
+            	</div>
+        	</div>
+		    <div class="col-auto">
+		        <i class="fas fa-tint fa-2x text-gray-400"></i>
+		    </div>
+    	</div>
+		</div>
+        </div>
+        </div>
+        
+        
+        
+        
+        
+        
+    </div>
+   
+   
+    <!-- Content Row -->
+    <div class="row">
+    	<?php 
+							// alt rou
+							           		
+    	?>
+    </div>
+
+</div>
+<!-- /.container-fluid -->
+
+
