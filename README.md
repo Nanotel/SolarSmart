@@ -10,6 +10,9 @@ ATENITE: Scriputl ruleaza cu python2, poate fi trecut la python3 daca se renunta
 Foldere:
 
 /pyhon - scriptul care citeste datele si se conecteaza la invertor, baterii, senzori, prize
+
 /monitorizare - interfata veche care afisa informatia in mod text
+
 /monitorizare2 - interfata noua facuta dupa o intrerfata metro my light
+
 /db - baza de date si un sql pentru a introduce valorile lunare daca le aveti salvate in alta parte
