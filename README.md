@@ -1,7 +1,7 @@
 # SolarSmart
 Proiect de monitorizare inteligenta a casei solare
 
-Puteti vedea proiectul in functiune la https://solarsmart.ro/monitorizare/ dar momentam vreau sa fac putina curatenie prin cod, sa separ variabilele de tip IP sau parole de acces si apoi o sa devina codul disponibil si pe github.
+Puteti vedea proiectul in functiune la https://solarsmart.ro/monitorizare/ sau interfata noua direct pe https://solarsmart.ro dar momentam vreau sa fac putina curatenie prin cod, sa separ variabilele de tip IP sau parole de acces si apoi o sa devina codul disponibil si pe github.
 
 Proiectul are mai multe module la care se conecteaza, pe viitor vor fi sparte in module separate dar momentan datele se fac cu scriptul python din folderul cu acelasi nume.
 
